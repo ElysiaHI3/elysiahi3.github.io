@@ -41,7 +41,7 @@ $(function () {
     trackNames = [
       "黄龄 - Huang Ling",
       "黄龄 - Huang Ling",
-      // "Kaaze - Electro Boy",
+      "Da Capo - 蔡近翰 Zoe",
       // "Jordan Schor - Home",
       // "Martin Garrix - Proxy"
     ],
@@ -49,7 +49,7 @@ $(function () {
     trackUrl = [
       "https://elysiahi3.github.io/Media/Songs/TruE-EdVer.mp3",
       "https://elysiahi3.github.io/Media/Songs/TruE.mp3",
-      // "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
+      "https://elysiahi3.github.io/Media/Songs/DaCapo.mp3",
       // "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
       // "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
     ],
