@@ -34,14 +34,14 @@ $(function () {
     albums = [
       "TruE-EdVer",
       "TruE",
-      // "Electro Boy",
+      "Da Capo",
       // "Home",
       // "Proxy (Original Mix)"
     ],
     trackNames = [
       "黄龄 - Huang Ling",
       "黄龄 - Huang Ling",
-      "Da Capo - 蔡近翰 Zoe",
+      "蔡近翰 - Zoe",
       // "Jordan Schor - Home",
       // "Martin Garrix - Proxy"
     ],
