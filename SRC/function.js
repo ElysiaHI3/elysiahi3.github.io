@@ -1,4 +1,5 @@
 $(function () {
+  // console.log('?');
   var playerTrack = $("#player-track"),
     bgArtwork = $("#bg-artwork"),
     bgArtworkUrl,
@@ -220,10 +221,19 @@ $(function () {
       else ++currIndex;
     }
   }
-  function volup() {
-    alert(vol);
-  }
-  $('#volume-bar').on('click', function () {
+
+  $('.btnDown').on('click', function () {
+    try {
+     if(vol <1 ){
+      vol = vol - 0.1;
+      $(audio).prop('volume', vol);
+      console.log(vol);
+     }
+    } catch (err) {
+        console.log(err);
+    }
+  });
+  $('.btnUp').on('click', function () {
     try {
      if(vol <1){
       vol = vol + 0.1;
@@ -231,7 +241,7 @@ $(function () {
       console.log(vol);
      }
     } catch (err) {
-
+      console.log(err);
     }
   });
   function initPlayer() {
